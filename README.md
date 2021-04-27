@@ -13,16 +13,16 @@
 <img src="https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51" /> </a>
 </p>
 <p align="center">
-<a href="https://github.com/BikiniBottomm/Spongebob" alt="GitHub closed issues"> <img src="https://img.shields.io/github/issues-closed-raw/SpongebobSquarepantsKrustyKrab/Spongebob?style=flat&logo=github&color=success" /> </a>
-<a href="https://github.com/BikiniBottomm/Spongebob/graphs/contributors" alt="GitHub contributors"> <img src="https://img.shields.io/github/contributors/SpongebobSquarepantsKrustyKrab/Spongebob?style=flat&logo=github" /> </a>
-<a href="https://github.com/BikiniBottomm/Spongebob/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/SpongebobSquarepantsKrustyKrab/Spongebob?label=Forks&logo=github" /> </a>
-<a href="https://github.com/BikiniBottomm/Spongebob" alt="GitHub closed pull requests"> <img src="https://img.shields.io/github/issues-pr-closed-raw/SpongebobSquarepantsKrustyKrab/spongebob?color=success" /> </a>
+<a href="https://github.com/BikiniBottomm/Spongebob" alt="GitHub closed issues"> <img src="https://img.shields.io/github/issues-closed-raw/BikiniBottomm/Spongebob?style=flat&logo=github&color=success" /> </a>
+<a href="https://github.com/BikiniBottomm/Spongebob/graphs/contributors" alt="GitHub contributors"> <img src="https://img.shields.io/github/contributors/BikiniBottomm/Spongebob?style=flat&logo=github" /> </a>
+<a href="https://github.com/BikiniBottomm/Spongebob/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/BikiniBottomm/Spongebob?label=Forks&logo=github" /> </a>
+<a href="https://github.com/BikiniBottomm/Spongebob" alt="GitHub closed pull requests"> <img src="https://img.shields.io/github/issues-pr-closed-raw/BikiniBottomm/spongebob?color=success" /> </a>
 <a href="https://github.com/BikiniBottomm/Spongebob" alt="GitHub issues"> <img src="https://img.shields.io/github/issues-raw/animekaizoku/saitamarobot?style=flat&logo=github&color=yellow" /> </a>
 </p>
 <p align="center">
 <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat&logo=python&color=red" /> </a>
 <a href="https://github.com/BikiniBottomm/Spongebob" alt="Docker!"> <img src="https://aleen42.github.io/badges/src/docker.svg" /> </a>
-<a href="https://github.com/BikiniBottomm/Spongebob" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/SpongebobSquarepantsKrustyKrab/Spongebob" /> </a>
+<a href="https://github.com/BikiniBottomm/Spongebob" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/BikiniBottomm/Spongebob" /> </a>
 <a href="https://github.com/BikiniBottomm/Spongebob/blob/spongebob/LICENSE" alt="GPLv3 license"> <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" /> </a>
 </p>
 <p align="center">
