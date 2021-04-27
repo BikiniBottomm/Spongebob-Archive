@@ -241,7 +241,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "Heyya! You Want A Krabby? 🍔\n{}".format(
+            "Heyya! You Want A Krabby? 🍔\nUptime:{}".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
