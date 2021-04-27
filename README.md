@@ -40,7 +40,7 @@ Spongebob is a simple Krabby Patty solution to your group management needs and h
 * Support Group : <a  href="https://t.me/KrustyKrabParty" alt="Voha Update"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Krusty%20Krab%20Party-9cf" /> </a>
 
 
-Should you be forking this repo then do not forget to star it! - <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/SpongebobSquarepantsKrustyKrab/spongebob?color=white&label=%F0%9F%8C%9F%20star">
+Should you be forking this repo then do not forget to star it! - <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/BikiniBottomm/spongebob?color=white&label=%F0%9F%8C%9F%20star">
 
 <details>
   <summary>Steps to deploy on Heroku </summary>
