@@ -17,7 +17,7 @@ from Spongebob.modules.users import get_user_id
 
 from Spongebob.modules.helper_funcs.alternate import send_message
 from Spongebob.modules.helper_funcs.readable_time import get_readable_time
-import Spongebob.modules.helper_funcs.fun_strings as fun
+import Spongebob.modules.fun_strings as fun
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
