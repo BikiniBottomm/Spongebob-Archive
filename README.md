@@ -59,12 +59,3 @@ Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.co
 ## Credits 📍
 * Well, it's all in the commit history 
 Feel free to open pull requests should any be missing.
-
-## Thanks To All Contributor!
-
-## Credits Modules
-[Sawada](https://github.com/tsunayoshisawada)
-
-[Dank-Del](https://github.com/dank-del)
-
-Thanks For All Module!
