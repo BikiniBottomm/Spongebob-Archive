@@ -5,7 +5,7 @@ from telegram.ext import BaseFilter
 
 class CustomFilters(object):
 
-    class _Supporters(BaseFilter):
+    methods __call__(BaseFilter):
 
         def filter(self, message: Message):
             return bool(message.from_user and message.from_user.id in DEMONS)
