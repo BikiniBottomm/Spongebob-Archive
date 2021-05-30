@@ -74,30 +74,40 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello Krabby Lovers! {} You want krabby?
-I'm a chef at the Krusty Krab! You want to order something? 
-I hope You happy after using me! Type /help for feature of krusty Krab!
+Haloo {} !
+━━━━━━━━━━━━━━━
+Saya adalah bot untuk mengelola grup anda dengan simple dan mudah!
+Saya memilikibanyak fitur praktis 
+┏━━━━━━━━━━━━━━
+┣• Flood Control.
+┣• Warning System.
+┣• Predetermined Filters.
+┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
+┗━━━━━━━━━━━━━━
+❃ Managed By : Iam (https://t.me/iamnibng)
 
 """
 
 HELP_STRINGS = """
-Hello! This is feature from Krabby patty! I hope You fun.
-*Main* commands available [:](https://telegra.ph/file/fd120b4d2a51251d1b8d4.mp4)
-
- 🍔 /help: PM's you this message.
- 🍔 /help <module name>: PM's you info about that module.
- 🍔 /settings:
-   🍟 in PM: will send you your settings for all supported modules.
-   🍟 in a group: will redirect you to pm, with all that chat's settings.
+Saya adalah bot manajemen Grup Modular dengan beberapa tambahan Fitur! Lihatlah Berikut ini Hal-hal yang Bisa saya Bantu.
+━━━━━━━━━━━━━━
+Perintah Utama yang Tersedia:
+ × /start : starts saya, digunakan untuk Memeriksa saya Masih Hidup atau Tidak.
+ × /help : Menampilkan List Fitur BOT. Gunakan di Private Message BOT
+ × /help <nama module>: PM Anda info tentang Modul itu.
+ × /settings : di PM: akan mengirimkan pengaturan Anda untuk semua modul yang didukung.
+   - dalam grup : akan mengarahkan Anda ke PM, dengan semua pengaturan obrolan itu.
+━━━━━━━━━━━━━━
+Click Tombol di Bawah ini untuk Mendapatkan Dokumentasi Tentang Modul BOT!
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SPONGEBOB_IMG = "https://telegra.ph/file/4a91f77db0039ab510412.jpg"
+SPONGEBOB_IMG = "http://telegra.ph/file/2e475070f8da2e7a6078a.jpg"
 
-DONATE_STRING = """Hello Krabby!, glad to hear you want to donate!
-but this bot is free without charging anything! if you want to donate please contact me @nekozu thank you.
+DONATE_STRING = """Haloo!, senang mendengar anda ingin men-donate!
+tapi bot ini gratis, tanpa suap apapun! anjai suap ga tuh hihi. jika anda ingin men-donate silahkan kontak saya di @iamnibng terima kasih.
 """
 
 IMPORTED = {}
@@ -214,26 +224,25 @@ def start(update: Update, context: CallbackContext):
                     [
                         [     
                          InlineKeyboardButton(
-                            text="➕ Add SpongeBob To Your Group",
+                            text="➕ Tambahkan ke Grup ➕",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
-                         InlineKeyboardButton(
-                             text=" 🔔 Updates ",
-                             url="https://t.me/spongebobupdates")
                      ],
                      [
-                        InlineKeyboardButton(
-                            text=" ❓ Help ❓",
-                            url="https://t.me/SpongebobSquarepantsRobot?start=help"),
                          InlineKeyboardButton(
-                            text=" 👩‍💻 Get Started ",
-                             url="https://t.me/VohaUpdate/51")        
-           
+                             text=" 🌿 Channel Support ",
+                             url="https://t.me/infoiam")
+                        InlineKeyboardButton(
+                            text=" ⛑ Help & Commands ",
+                            url="https://t.me/?start=help"),
                      ],
                      [
+                         InlineKeyboardButton(
+                            text=" 📷 My Instagram ",
+                             url="https://instagram.com/ilhambumulo_"),
                         InlineKeyboardButton(
-                             text="🗒 Source Code  ",
-                             url="https://github.com/BikiniBottomm/spongebob")
+                             text=" 🔥 My Grup ",
+                             url="https://t.me/titiktemufams")
                     
                     ]
                    ]
@@ -241,7 +250,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "Heyya! You Want A Krabby? 🍔\nUptime:{}".format(
+            "Heyyo telegram!\nUptime:{}".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
