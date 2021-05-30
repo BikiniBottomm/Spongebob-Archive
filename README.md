@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://telegra.ph/file/e89dea6e5af619deb67a5.jpg">
+  <img src="http://telegra.ph/file/ef06e65dfe8626f3fc786.jpg">
 </p>
 
-## Spongebob 
+## Manage-Iam
 
 <p align="center">
-- x -|│  “	Let's Play With Spongebob!. ”  │| - x -
+- x -|│  “	Management Robot by IAM!. ”  │| - x -
 </p>
 
 <p align="center">
@@ -36,8 +36,8 @@
 Spongebob is a simple Krabby Patty solution to your group management needs and has become one of the most prominently kanged bots around telegram, purely spongebob themed.
 
 * Bot Link:  <a href="https://t.me/SpongebobSquarepantsRobot" alt="Spongebob Robot"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-SpongebobRobot-yellow" /> </a>
-* News channel: <a  href="https://t.me/SpongebobUpdates" alt="Voha Update"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Spongebob%20Updates-9cf" /> </a>
-* Support Group : <a  href="https://t.me/KrustyKrabParty" alt="Voha Update"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Krusty%20Krab%20Party-9cf" /> </a>
+* News channel: <a  href="https://t.me/infoiam" alt="Voha Update"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Spongebob%20Updates-9cf" /> </a>
+* My Group : <a  href="https://t.me/titiktemufams" alt="Voha Update"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Krusty%20Krab%20Party-9cf" /> </a>
 
 
 Should you be forking this repo then do not forget to star it! - <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/BikiniBottomm/spongebob?color=white&label=%F0%9F%8C%9F%20star">
@@ -52,7 +52,7 @@ REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SpongebobSquarepantsKrustyKrab/Spongebob.git)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ilhambumulo/Manage-Iam.git)
 
 </details>  
 
