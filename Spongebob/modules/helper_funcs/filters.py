@@ -5,8 +5,6 @@ from telegram.ext import BaseFilter
 
 class CustomFilters(object):
     
-    support_filter = _Supporters()
-
     class _Sudoers(BaseFilter):
 
         def filter(self, message: Message):
