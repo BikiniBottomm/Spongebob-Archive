@@ -231,7 +231,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text=" 🌿 Channel Support ",
-                             url="https://t.me/infoiam")
+                             url="https://t.me/infoiam"),
                          InlineKeyboardButton(
                             text=" ⛑ Help & Commands ",
                             url="https://t.me/?start=help"),
