@@ -1,6 +1,6 @@
 {
-      "name": "SpongeBob",
-      "description": "An Spongebob themed Telegram group management bot.",
+      "name": "Iam Management",
+      "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
@@ -8,8 +8,8 @@
          "manager",
          "Spongebob"
       ],   
-   "repository": "https://github.com/Xlaaf/KrustyRobot",
-   "logo": "https://telegra.ph/file/7d7e1e33525dadf3f7cb7.jpg",
+   "repository": "https://github.com/ilhambumulo/Manage-Iam",
+   "logo": "https://telegra.ph/file/ef06e65dfe8626f3fc786.jpg",
    "addons": [
     {
          "options": {
