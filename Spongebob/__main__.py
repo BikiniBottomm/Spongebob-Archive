@@ -224,16 +224,16 @@ def start(update: Update, context: CallbackContext):
                     [
                         [     
                          InlineKeyboardButton(
-                            text=" 🌿 Channel Support ",
-                            url="https://t.me/infoiam")
-                        InlineKeyboardButton(
-                            text=" ❓ Help ❓",
-                            url="https://t.me/asisteniambot?start=help"),
+                            text="🌿 My Channel",
+                             url="https://t.me/titiktemukitaa"),
+                         InlineKeyboardButton(
+                             text=" 🔔 Updates ",
+                             url="https://t.me/infoiam")
                      ],
                      [
                         InlineKeyboardButton(
-                            text=" 📷 My Instagram ",
-                            url="https://instagram.com/ilhambumulo_"),
+                            text=" ❓ Help ❓",
+                            url="https://t.me/asisteniambot?start=help"),
                          InlineKeyboardButton(
                             text=" 🔥 My Grup ",
                              url="https://t.me/titiktemufams")        
@@ -241,9 +241,10 @@ def start(update: Update, context: CallbackContext):
                      ],
                      [
                         InlineKeyboardButton(
-                             text="➕ Tambahkan ke Grup ➕",
-                             url="t.me/{}?startgroup=true".format(
+                             text="➕ Add Me To Your Group",
+                            url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
+                    
                     ]
                    ]
                 )
