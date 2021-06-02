@@ -191,14 +191,9 @@ else:
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("KrustyKrab", API_ID, API_HASH)
-pbot = Client("Spongebob", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+pbot = Client("SpongebobPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 tbot = telethn
-
-kp = Client("SpongebobPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN, workers=min(32, os.cpu_count() + 4))
-apps = []
-apps.append(kp)
-
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
 DEV_USERS = list(DEV_USERS)
