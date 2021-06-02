@@ -55,6 +55,7 @@ html2text
 search_engine_parser
 bing_image_downloader
 Intellivoid-SPB
+cloudscraper
 nltk
 youtube_search
 youtube_search_python
