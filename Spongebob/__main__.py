@@ -94,8 +94,6 @@ Hello! This is feature from Krabby patty! I hope You fun.
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SPONGEBOB_IMG = "https://telegra.ph/file/4a91f77db0039ab510412.jpg"
-
 DONATE_STRING = """Hello Krabby!, glad to hear you want to donate!
 but this bot is free without charging anything! if you want to donate please contact me @nekozu thank you.
 """
@@ -203,8 +201,7 @@ def start(update: Update, context: CallbackContext):
 
         else:
             first_name = update.effective_user.first_name
-            update.effective_message.reply_photo(
-                SPONGEBOB_IMG,
+            update.effective_message.reply_text(
                 PM_START_TEXT.format(
                     escape_markdown(first_name), escape_markdown(context.bot.first_name)
                 ),
@@ -224,7 +221,7 @@ def start(update: Update, context: CallbackContext):
                      [
                         InlineKeyboardButton(
                             text=" ❓ Help ❓",
-                            url="https://t.me/SpongebobSquarepantsRobot?start=help"),
+                            callback_data="help_back"),
                          InlineKeyboardButton(
                             text=" 👩‍💻 Get Started ",
                              url="https://t.me/VohaUpdate/51")        
