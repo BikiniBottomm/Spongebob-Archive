@@ -58,10 +58,6 @@ class Config(object):
     CF_API_KEY = 'your coffehouse api key'  #For spb, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
-    '''
-    Use this if you are using REDIS Sever ->
-    REDIS_URL =redis-18169.c246.us-east-1-4.ec2.cloud.redislabs.com:18169
-    '''
 
 class Production(Config):
     LOGGER = True
