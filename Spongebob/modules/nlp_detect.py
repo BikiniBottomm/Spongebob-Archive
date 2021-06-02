@@ -1,5 +1,5 @@
 from pyrogram import filters
-from Spongebob import kp, CF_API_KEY, EVENT_LOGS
+from Spongebob import pbot, CF_API_KEY, EVENT_LOGS
 from pyrogram.handlers import MessageHandler
 from pyrogram.types import ChatPermissions, Message
 from pyrogram.errors import BadRequest
@@ -38,7 +38,7 @@ it [here](https://docs.intellivoid.net/coffeehouse/v1/nlp/spam_prediction/chatro
 • `/nlpstat <on/off/yes/no>`*:* toggle NLP in your chat.
 """
 
-@kp.on_message(filters.command("nlpstat"), group=8)
+@pbot.on_message(filters.command("nlpstat"), group=8)
 async def nlp_mode(client, message):
     is_admin = await admin_check(message)
     args = message.text.split(None, 1)
@@ -70,7 +70,7 @@ async def nlp_mode(client, message):
         await message.reply_text("You aren't an admin.")
 
 
-@kp.on_message(filters.text & filters.group, group=3)
+@pbot.on_message(filters.text & filters.group, group=3)
 async def detect_spam(client, message):
     url = "https://api.intellivoid.net/coffeehouse/v1/nlp/spam_prediction/chatroom"
     user = message.from_user
