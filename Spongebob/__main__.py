@@ -19,6 +19,7 @@ from Spongebob import (
     dispatcher,
     StartTime,
     telethn,
+    pbot,
     updater,
 )
 
