@@ -20,7 +20,6 @@ from Spongebob import (
     StartTime,
     telethn,
     updater,
-    kp,
 )
 
 # needed to dynamically load modules
@@ -671,7 +670,7 @@ def main():
 
 
 if __name__ == "__main__":
-    kp.start()
+    pbot.start()
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
     telethn.start(bot_token=TOKEN)
     main()
