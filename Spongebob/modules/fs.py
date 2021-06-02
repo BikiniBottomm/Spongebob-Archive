@@ -11,7 +11,7 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
 from Spongebob import pbot
-from Spongebob.modules.sql import fsub_sql as sql
+from Spongebob.modules.sql import fs_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 
