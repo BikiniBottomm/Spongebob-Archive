@@ -59,3 +59,6 @@ Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.co
 ## Credits 📍
 * Well, it's all in the commit history 
 Feel free to open pull requests should any be missing.
+
+## Important notice ✌️
+Now the new repository is private guys
