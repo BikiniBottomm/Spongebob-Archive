@@ -61,4 +61,4 @@ Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.co
 Feel free to open pull requests should any be missing.
 
 ## Important notice ✌️
-Now the new repository is private guys
+The Repo Changed And Archived. Use [SpongebobBot](https://github.com/BikiniBottomm/SpongebobBot) For New Repo
